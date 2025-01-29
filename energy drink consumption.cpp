@@ -6,22 +6,26 @@
 
 using namespace std;
 
-int main() {
 
-    totalcustomers= 16,500;
-    double energydrinkpercent= 0.15;
-    double citrusflavorpercent = 0.58;
 
-    int customersbuyingenergydrinks = totalcustomers * energydrinkpercent;
-    int customersperferringcitrus = customersbuyingenergydrinks * citrusflavorpercent;
+    int main() {
 
-    cout << fixed << setprecision(0);
-    cout << "Approximate number of customers who purchase energy drinks:"
-        << customersbuyingenergydrinks << endl;
-    cout << "Approximate number of customers who prefer citrus flavored energy drinks; "
-        << customersperferringcitrus << endl;
+       const int totalcustomers = 16500;
+       const double energydrinkpercent = 0.15;
+       const double citrusflavorpercent = 0.58;
 
-    return 0;
+        int customersbuyingenergydrinks = totalcustomers * energydrinkpercent;
+        int customersperferringcitrus = customersbuyingenergydrinks * citrusflavorpercent;
+
+        cout << fixed << setprecision(0);
+        cout << "Approximate number of customers who purchase energy drinks:"
+            << customersbuyingenergydrinks << endl;
+        cout << "Approximate number of customers who prefer citrus flavored energy drinks; "
+            << customersperferringcitrus << endl;
+
+        return 0;
+
+    }
     
 }
 
