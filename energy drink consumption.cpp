@@ -8,12 +8,9 @@ using namespace std;
 
 int main() {
 
-    int totalcustomers;
+    totalcustomers= 16,500;
     double energydrinkpercent= 0.15;
     double citrusflavorpercent = 0.58;
-
-    cout << "Enter the total number of customers surveyed: ";
-    cin >> totalcustomers;
 
     int customersbuyingenergydrinks = totalcustomers * energydrinkpercent;
     int customersperferringcitrus = customersbuyingenergydrinks * citrusflavorpercent;
